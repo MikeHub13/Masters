@@ -1,0 +1,62 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project AAC2m2h2
+# Compile of AAC2M2H2_tb.vhdp was successful.
+# Compile of AAC2M2H2.vhd failed with 3 errors.
+# Compile of AAC2M2H2.vhd failed with 2 errors.
+# Compile of AAC2M2H2.vhd was successful.
+vsim -gui work.aac2m2h2_tb
+# vsim -gui work.aac2m2h2_tb 
+# Start time: 08:07:33 on Nov 19,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2h2_tb(behavioral)
+# Loading work.fifo8x9(rtl)
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position end  sim:/aac2m2h2_tb/clk_tb
+add wave -position end  sim:/aac2m2h2_tb/rst_tb
+add wave -position end  sim:/aac2m2h2_tb/RdPtrClr_tb
+add wave -position end  sim:/aac2m2h2_tb/WrPtrClr_tb
+add wave -position end  sim:/aac2m2h2_tb/rdinc_tb
+add wave -position end  sim:/aac2m2h2_tb/wrinc_tb
+add wave -position end  sim:/aac2m2h2_tb/DataIn_tb
+add wave -position end  sim:/aac2m2h2_tb/DataOut_tb
+add wave -position end  sim:/aac2m2h2_tb/rden_tb
+add wave -position end  sim:/aac2m2h2_tb/wren_tb
+add wave -position end  sim:/aac2m2h2_tb/simend
+add wave -position end  sim:/aac2m2h2_tb/ValidCheck
+add wave -position end  sim:/aac2m2h2_tb/ROM
+add wave -position end  sim:/aac2m2h2_tb/delay
+add wave -position end  sim:/aac2m2h2_tb/Points
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /aac2m2h2_tb/FIFO_test
+run
+run
+run
+# ** Note: This simulation is complete
+#    Time: 335 ns  Iteration: 0  Instance: /aac2m2h2_tb
+# End time: 08:09:44 on Nov 19,2024, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 9
