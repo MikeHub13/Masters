@@ -1,0 +1,41 @@
+-- implement a 128 by 32 single port RAM
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+--USE ieee.std_logic_arith.all;
+USE ieee.numeric_std.all;
+
+ENTITY RAM128_32 IS
+	PORT
+	(
+		address		: IN STD_LOGIC_VECTOR (6 DOWNTO 0); -- address to write and read RAM 6 bit (6 downto 0)
+		clock		: IN STD_LOGIC  := '1'; -- clock
+		data		: IN STD_LOGIC_VECTOR (31 DOWNTO 0); -- 32 bit data input
+		wren		: IN STD_LOGIC ; -- write enable signal
+		q		: OUT STD_LOGIC_VECTOR (31 DOWNTO 0) -- data output
+	);
+END RAM128_32;
+
+architecture Behavioral of RAM128_32 is
+	-- defining the type of ram 128 x 32 bit
+	type ram_type is array (0 to 127) of std_logic_vector(31 downto 0);
+	signal ram : ram_type;
+begin
+
+process(clock) is
+begin
+    if rising_edge(clock) then
+        if (wren = '1') then
+            -- Write data to RAM at the address if write is enabled
+            ram(to_integer(unsigned(address))) <= data;
+			q <= data;
+		else
+		-- Read data from RAM at the address
+			q <= ram(to_integer(unsigned(address)));
+        end if;
+	end if;
+end process;
+
+end Behavioral;
