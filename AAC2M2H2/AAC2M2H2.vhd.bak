@@ -64,7 +64,7 @@ else
 "ZZZZZZZZZ" when rden = '0'; -- Otherwise, output undefined state (9 bits of 'u').
 
 fifo(to_integer(wrptr)) <= DataIn when rising_edge(clk) and wren = '1' -- Write input data to the FIFO location pointed by the write pointer if write enable is active.
-else fifo(to_integer(wrptr)); -- Otherwise, retain the current data in the FIFO.
+fifo(to_integer(wrptr)); -- Otherwise, retain the current data in the FIFO.
 
 dmuxout <= fifo(to_integer(rdptr)); -- Assign the FIFO location pointed by the read pointer to the intermediate output signal.
 
