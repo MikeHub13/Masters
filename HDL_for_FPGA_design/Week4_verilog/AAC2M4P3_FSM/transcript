@@ -1,0 +1,40 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project 16.1
+# reading C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project AAC2M4P3
+# Compile of AAC2M4P3_tb.vp was successful.
+# Compile of AAC2M4P3.v was successful.
+vsim -gui work.AAC2M4P3_tb
+# vsim -gui work.AAC2M4P3_tb 
+# Start time: 07:26:03 on Dec 02,2024
+# Loading work.AAC2M4P3_tb
+# Loading work.FSM
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position end  sim:/AAC2M4P3_tb/delay
+add wave -position end  sim:/AAC2M4P3_tb/clk_period
+add wave -position end  sim:/AAC2M4P3_tb/clock_tb
+add wave -position end  sim:/AAC2M4P3_tb/reset_n_tb
+add wave -position end  sim:/AAC2M4P3_tb/In1_tb
+add wave -position end  sim:/AAC2M4P3_tb/Out1_tb
+add wave -position end  sim:/AAC2M4P3_tb/i
+add wave -position end  sim:/AAC2M4P3_tb/j
+add wave -position end  sim:/AAC2M4P3_tb/k
+add wave -position end  sim:/AAC2M4P3_tb/ErrorCount
+add wave -position end  sim:/AAC2M4P3_tb/score
+add wave -position end  sim:/AAC2M4P3_tb/FirstError
+add wave -position end  sim:/AAC2M4P3_tb/ValidCheck
+add wave -position end  sim:/AAC2M4P3_tb/testresults
+add wave -position end  sim:/AAC2M4P3_tb/vector
+add wave -position end  sim:/AAC2M4P3_tb/address
+add wave -position end  sim:/AAC2M4P3_tb/data
+add wave -position end  sim:/AAC2M4P3_tb/rom
+run
+run
+# This simulation is complete
+# ** Note: $stop    : C:/intelFPGA_lite/16.1/AAC2M4P3_tb.vp(118)
+#    Time: 141 ns  Iteration: 0  Instance: /AAC2M4P3_tb
+# Break in Module AAC2M4P3_tb in file C:/intelFPGA_lite/16.1/AAC2M4P3_tb.vp
+# End time: 07:26:45 on Dec 02,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0

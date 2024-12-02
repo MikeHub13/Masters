@@ -1,0 +1,48 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project AAC2M4H1
+# Compile of AAC2M4H1_tb.vp was successful.
+# Compile of AAC2M4H1.v was successful.
+vsim -gui work.AAC2M4H1_tb
+# vsim -gui work.AAC2M4H1_tb 
+# Start time: 07:38:02 on Dec 02,2024
+# Loading work.AAC2M4H1_tb
+# Loading work.ALU
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position end  sim:/AAC2M4H1_tb/delay
+add wave -position end  sim:/AAC2M4H1_tb/A_tb
+add wave -position end  sim:/AAC2M4H1_tb/B_tb
+add wave -position end  sim:/AAC2M4H1_tb/Op_code_tb
+add wave -position end  sim:/AAC2M4H1_tb/Y_tb
+add wave -position end  sim:/AAC2M4H1_tb/i
+add wave -position end  sim:/AAC2M4H1_tb/j
+add wave -position end  sim:/AAC2M4H1_tb/k
+add wave -position end  sim:/AAC2M4H1_tb/ErrorCount
+add wave -position end  sim:/AAC2M4H1_tb/score
+add wave -position end  sim:/AAC2M4H1_tb/FirstError
+add wave -position end  sim:/AAC2M4H1_tb/ValidCheck
+add wave -position end  sim:/AAC2M4H1_tb/testresults
+add wave -position end  sim:/AAC2M4H1_tb/vector
+add wave -position end  sim:/AAC2M4H1_tb/address
+add wave -position end  sim:/AAC2M4H1_tb/data
+add wave -position end  sim:/AAC2M4H1_tb/rom
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# This simulation is complete
+# ** Note: $stop    : C:/intelFPGA_lite/16.1/AAC2M4H1_tb.vp(118)
+#    Time: 1291 ns  Iteration: 0  Instance: /AAC2M4H1_tb
+# Break in Module AAC2M4H1_tb in file C:/intelFPGA_lite/16.1/AAC2M4H1_tb.vp
+# End time: 07:38:38 on Dec 02,2024, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0

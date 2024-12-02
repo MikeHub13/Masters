@@ -1,0 +1,326 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+project open C:/intelFPGA_lite/16.1/AAC2M4P2
+# Loading project AAC2M4P2
+vsim -gui work.AAC2M4P2_tb
+# vsim -gui work.AAC2M4P2_tb 
+# Start time: 15:02:22 on Nov 29,2024
+# Loading work.AAC2M4P2_tb
+# Loading work.RAM128x32
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position end  sim:/AAC2M4P2_tb/delay
+add wave -position end  sim:/AAC2M4P2_tb/clk_period
+add wave -position end  sim:/AAC2M4P2_tb/data_width
+add wave -position end  sim:/AAC2M4P2_tb/address_width
+add wave -position end  sim:/AAC2M4P2_tb/clock_tb
+add wave -position end  sim:/AAC2M4P2_tb/we_tb
+add wave -position end  sim:/AAC2M4P2_tb/address_tb
+add wave -position end  sim:/AAC2M4P2_tb/d_tb
+add wave -position end  sim:/AAC2M4P2_tb/q_tb
+add wave -position end  sim:/AAC2M4P2_tb/i
+add wave -position end  sim:/AAC2M4P2_tb/j
+add wave -position end  sim:/AAC2M4P2_tb/k
+add wave -position end  sim:/AAC2M4P2_tb/ErrorCount
+add wave -position end  sim:/AAC2M4P2_tb/score
+add wave -position end  sim:/AAC2M4P2_tb/FirstError
+add wave -position end  sim:/AAC2M4P2_tb/ValidCheck
+add wave -position end  sim:/AAC2M4P2_tb/testresults
+add wave -position end  sim:/AAC2M4P2_tb/vector
+add wave -position end  sim:/AAC2M4P2_tb/address
+add wave -position end  sim:/AAC2M4P2_tb/data
+add wave -position end  sim:/AAC2M4P2_tb/rom
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of AAC2M4P2.v was successful.
+restart -f
+# Loading work.RAM128x32
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of AAC2M4P2.v was successful.
+restart -f
+# Loading work.RAM128x32
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 15:14:37 on Nov 29,2024, Elapsed time: 0:12:15
+# Errors: 0, Warnings: 0

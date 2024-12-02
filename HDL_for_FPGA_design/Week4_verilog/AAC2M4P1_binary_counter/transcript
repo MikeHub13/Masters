@@ -1,0 +1,53 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project AAC2M4P1
+# Compile of AAC2M4P1_tb.vp was successful.
+# Compile of AAC2M4P1.v failed with 3 errors.
+# Compile of AAC2M4P1.v failed with 1 errors.
+# Compile of AAC2M4P1.v failed with 3 errors.
+# Compile of AAC2M4P1.v was successful.
+vsim -gui work.AAC2M4P1_tb
+# vsim -gui work.AAC2M4P1_tb 
+# Start time: 14:31:02 on Nov 29,2024
+# Loading work.AAC2M4P1_tb
+# Loading work.LS161a
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position end  sim:/AAC2M4P1_tb/delay
+add wave -position end  sim:/AAC2M4P1_tb/clk_period
+add wave -position end  sim:/AAC2M4P1_tb/CLK_tb
+add wave -position end  sim:/AAC2M4P1_tb/CLR_n_tb
+add wave -position end  sim:/AAC2M4P1_tb/LOAD_n_tb
+add wave -position end  sim:/AAC2M4P1_tb/ENT_tb
+add wave -position end  sim:/AAC2M4P1_tb/ENP_tb
+add wave -position end  sim:/AAC2M4P1_tb/D_tb
+add wave -position end  sim:/AAC2M4P1_tb/Q_tb
+add wave -position end  sim:/AAC2M4P1_tb/RCO_tb
+add wave -position end  sim:/AAC2M4P1_tb/i
+add wave -position end  sim:/AAC2M4P1_tb/j
+add wave -position end  sim:/AAC2M4P1_tb/k
+add wave -position end  sim:/AAC2M4P1_tb/ErrorCount
+add wave -position end  sim:/AAC2M4P1_tb/score
+add wave -position end  sim:/AAC2M4P1_tb/FirstError
+add wave -position end  sim:/AAC2M4P1_tb/ValidCheck
+add wave -position end  sim:/AAC2M4P1_tb/testresults
+add wave -position end  sim:/AAC2M4P1_tb/vector
+add wave -position end  sim:/AAC2M4P1_tb/address
+add wave -position end  sim:/AAC2M4P1_tb/data
+add wave -position end  sim:/AAC2M4P1_tb/rom
+run
+run
+run
+run
+# Error at time       350
+run
+run
+run
+# Score =           9
+# Error Count =           1
+# This simulation is complete
+# ** Note: $stop    : C:/intelFPGA_lite/16.1/AAC2M4P1_tb.vp(125)
+#    Time: 681 ns  Iteration: 0  Instance: /AAC2M4P1_tb
+# Break in Module AAC2M4P1_tb in file C:/intelFPGA_lite/16.1/AAC2M4P1_tb.vp
+# End time: 14:32:16 on Nov 29,2024, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 0
