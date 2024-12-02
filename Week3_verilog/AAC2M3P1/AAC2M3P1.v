@@ -35,8 +35,8 @@
 //////////////////////////////////////////////////////////////////////////////
 // 
   	                                            		
-module Comparator2(
-   input[1:0] A, B,
+Module Comparator2(
+   input[1:0] A, B
    output reg Equals
 );      		
                    	          	
